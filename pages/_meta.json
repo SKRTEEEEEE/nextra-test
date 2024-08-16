@@ -12,6 +12,20 @@
       "type": "page",
       "display": "hidden"
     },
+    "courses":{
+      "title": "Courses",
+      "type": "menu",
+      "items": {
+        "nextjs": {
+          "title": "Next Js",
+          "href": "/courses/nextjs/intro"
+        },
+        "solidity": {
+          "title": "Solidity",
+          "href": "/courses/solidity/intro"
+        }
+      }
+    },
     "contact": {
       "title": "Contact ↗",
       "type": "page",

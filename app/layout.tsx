@@ -1,7 +1,6 @@
 // import "@/app/ui/global.css"
 // import { inter } from "../components/ui/fonts";
 
-import Link from "next/link";
 
  
 // export const metadata: Metadata = {
@@ -19,9 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <nav>
-        <Link href="/docs/welcome">Go to info</Link>
-      </nav>
+      
       <body>{children}</body>
     </html>
   );
