@@ -1,15 +1,21 @@
 {
-  "docs": "Documentation",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "about": {
+      "title": "About",
+      "type": "page"
+    },
+    "advanced": {
+        "title": "Advanced",
+        "type": "page"
+    },
+    "base": {
+      "title": "base",
+      "type": "page",
+      "display": "hidden"
+    },
+    "contact": {
+      "title": "Contact ↗",
+      "type": "page",
+      "href": "https://twitter.com/shuding_",
+      "newWindow": true
+    }
   }
-}
